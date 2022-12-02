@@ -14,7 +14,7 @@ function App() {
         </h1>
         <p className="text-center sm:text-base text-sm text-amber-100 font-serif">
           A Blog{" "}
-          <span className="text-amber-200">(or something like it)</span>{" "}
+          <span className="text-amber-50">(or something like it)</span>{" "}
           coming soon!
         </p>
         <img
