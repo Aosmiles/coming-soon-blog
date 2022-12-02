@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Tinos&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+
+  background-color: #4d0f00;
+  background-image: radial-gradient(at 82% 65%, hsla(3, 91%, 51%, 1) 0, hsla(3, 91%, 51%, .2) 50%),
+  radial-gradient(at 100% 11%, hsla(89, 88%, 56%, .5) 0, hsla(89, 88%, 56%, 0) 50%),
+  radial-gradient(at 30% 20%, hsla(153, 93%, 55%, .5) 0, hsla(153, 93%, 55%, 0) 50%),
+  radial-gradient(at 46% 13%, hsla(306, 95%, 50%, .5) 0, hsla(306, 95%, 50%, 0) 50%),
+  radial-gradient(at 38% 10%, hsla(158, 86%, 57%, .5) 0, hsla(158, 86%, 57%, 0) 50%),
+  radial-gradient(at 25% 9%, hsla(21, 92%, 68%, .5) 0, hsla(21, 92%, 68%, 0) 50%),
+  radial-gradient(at 77% 21%, hsla(334, 94%, 51%, .5) 0, hsla(334, 94%, 51%, 0) 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*body::before,*/
+/*body::after {*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  content: '';*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  z-index: -1;*/
+/*  mix-blend-mode: overlay;*/
+/*}*/
+
+/*body::before {*/
+/*  background: #000;*/
+/*  filter: url(#noiseFilter) blur(1px);*/
+/*}*/
