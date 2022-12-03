@@ -8,7 +8,7 @@ function App() {
   return (
     // eslint-disable-next-line react/react-in-jsx-scope
     <div className="App">
-      <main className="container mx-auto pt-10 lg:w-1/2 w-4/5 min-w-min max-w-lg">
+      <main className="container mx-auto pt-10 pb-14 lg:w-1/2 w-4/5 min-w-min max-w-lg">
         <h1 className="md:text-6xl sm:text-5xl text-2xl uppercase font-sans text-amber-50 text-center">
           Through the dungeon
         </h1>
